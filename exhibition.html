@@ -311,7 +311,7 @@
       var credEl = document.getElementById('ex-credits');
       var credBody = document.getElementById('ex-credits-body');
       credEl.style.display = '';
-      var labels = { curator: 'Куратор', text: 'Текст', photo: 'Фото' };
+      var labels = { curator: 'Куратор', curators: 'Кураторы', text: 'Текст', photo: 'Фото' };
       Object.keys(ex.credits).forEach(function(k) {
         var p = document.createElement('p');
         p.textContent = (labels[k] || k) + ': ' + ex.credits[k];

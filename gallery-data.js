@@ -8,6 +8,36 @@ var UPCOMING = {
 
 var EXHIBITIONS = [
   {
+    id: 7, num: "VII",
+    artist: "Вероника Рудьева-Рязанцева",
+    title: "ПО-2.0",
+    dates: "29 мая — 22 июня 2026",
+    cover: "photos/rudieva-po-2-0/IMG_2290.jpg",
+    description: [
+      "В проекте реконструируется и переосмысливается инсталляция, которую Вероника Рудьева-Рязанцева показывала в 2008 году на выставке «Переучёт» в Малом зале Манежа.",
+      "Выставка проходила в формате work in progress и развивалась через несколько последовательных версий — от «ПО-2.0» до «ПО-2.4». В проекте участвовали художники Стас Багс, Марк Маклаков, Кирилл Лебедев (Кто) и Дмитрий Роткин, а также музыканты Соня Скобелева, Андрей Поповский, Максим Травников, Сине Море DJ и EVHZU.",
+      "Проект был представлен в рамках фестиваля «Коллекция странностей»."
+    ],
+    credits: { curators: "Иван Химин, Константин Ужве" },
+    photos: [
+      "photos/rudieva-po-2-0/IMG_2290.jpg",
+      "photos/rudieva-po-2-0/IMG_2299.jpg",
+      "photos/rudieva-po-2-0/IMG_2320.jpg",
+      "photos/rudieva-po-2-0/IMG_2458.jpg",
+      "photos/rudieva-po-2-0/IMG_2368.jpg",
+      "photos/rudieva-po-2-0/IMG_2317.jpg",
+      "photos/rudieva-po-2-0/IMG_2329.jpg",
+      "photos/rudieva-po-2-0/IMG_2359.jpg",
+      "photos/rudieva-po-2-0/IMG_2434.jpg",
+      "photos/rudieva-po-2-0/IMG_2398.jpg",
+      "photos/rudieva-po-2-0/IMG_2413.jpg",
+      "photos/rudieva-po-2-0/IMG_2422.jpg",
+      "photos/rudieva-po-2-0/IMG_2443.jpg",
+      "photos/rudieva-po-2-0/IMG_2455.jpg",
+      "photos/rudieva-po-2-0/IMG_2467.jpg"
+    ]
+  },
+  {
     id: 6, num: "VI",
     artist: "Павел Брат",
     title: "Райский сад",
