@@ -3,7 +3,7 @@
 var UPCOMING = {
   artist: "Вероника Рудьева-Рязанцева",
   title: "ПО-2.0",
-  cover: "images/next-show.jpg"
+  cover: "photos/rudieva-po-2-0/IMG_2290.jpg"
 };
 
 var EXHIBITIONS = [
