@@ -157,7 +157,7 @@
 
   <!-- Hero -->
   <section class="hero">
-    <img id="hero-img" src="photos/rudieva-po-2-0/IMG_2290.jpg" alt="Экспозиция «ПО-2.0»" class="hero-img">
+    <img id="hero-img" src="photos/shumel-kamysh/IMG_3249.jpg" alt="Экспозиция «Шумел камыш»" class="hero-img">
     <div class="hero-overlay">
       <div class="hero-label">Последняя выставка</div>
       <h1 class="hero-artist" id="hero-artist"></h1>
@@ -213,6 +213,8 @@
   document.getElementById('hero-artist').textContent = UPCOMING.artist;
   document.getElementById('hero-title').textContent  = UPCOMING.title;
   var img = document.getElementById('hero-img');
+  img.src = UPCOMING.cover;
+  img.alt = 'Экспозиция «' + UPCOMING.title + '»';
   function onLoad() { img.classList.add('ready'); }
   if (img.complete) onLoad(); else img.addEventListener('load', onLoad);
 

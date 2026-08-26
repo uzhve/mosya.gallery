@@ -1,12 +1,46 @@
 /* ── Галерея Мося — Exhibition Data ────────────────── */
 
 var UPCOMING = {
-  artist: "Вероника Рудьева-Рязанцева",
-  title: "ПО-2.0",
-  cover: "photos/rudieva-po-2-0/IMG_2290.jpg"
+  artist: "Нестор Энгельке × Или и Павлов",
+  title: "Шумел камыш",
+  cover: "photos/shumel-kamysh/IMG_3249.jpg"
 };
 
 var EXHIBITIONS = [
+  {
+    id: 8,
+    num: "VIII",
+    artist: "Нестор Энгельке × Или и Павлов",
+    title: "Шумел камыш",
+    dates: "17–18 июля 2026",
+    cover: "photos/shumel-kamysh/poster.jpg",
+    description: [
+      "В тотальной инсталляции «Шумел камыш» Нестор Энгельке и дуэт «Или и Павлов» превратили пространство галереи в архитектурную конструкцию, напоминающую загон.",
+      "Собранная из досок и старых дверей, она одновременно стала физическим ограждением и образом тревожного внутреннего цикла — архитектурой ограничения, в которой даже двери перестали быть выходом и сделались частью преграды."
+    ],
+    credits: {
+      photo: "Михаил Григорьев"
+    },
+    photos: [
+      "photos/shumel-kamysh/IMG_3249.jpg",
+      "photos/shumel-kamysh/IMG_3231.jpg",
+      "photos/shumel-kamysh/IMG_3243.jpg",
+      "photos/shumel-kamysh/IMG_3255.jpg",
+      "photos/shumel-kamysh/IMG_3267.jpg",
+      "photos/shumel-kamysh/IMG_3285.jpg",
+      "photos/shumel-kamysh/IMG_3294.jpg",
+      "photos/shumel-kamysh/IMG_3300.jpg",
+      "photos/shumel-kamysh/IMG_3318.jpg",
+      "photos/shumel-kamysh/IMG_3324.jpg",
+      "photos/shumel-kamysh/IMG_3333.jpg",
+      "photos/shumel-kamysh/IMG_3339.jpg",
+      "photos/shumel-kamysh/IMG_3362.jpg",
+      "photos/shumel-kamysh/IMG_3405.jpg",
+      "photos/shumel-kamysh/IMG_3414.jpg",
+      "photos/shumel-kamysh/IMG_3422.jpg",
+      "photos/shumel-kamysh/IMG_3454.jpg"
+    ]
+  },
   {
     id: 7, num: "VII",
     artist: "Вероника Рудьева-Рязанцева",
