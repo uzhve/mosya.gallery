@@ -1,12 +1,46 @@
 /* ── Галерея Мося — Exhibition Data ────────────────── */
 
 var UPCOMING = {
-  artist: "Нестор Энгельке × Или и Павлов",
-  title: "Шумел камыш",
-  cover: "photos/shumel-kamysh/IMG_3249.jpg"
+  artist: "Данил Андреев",
+  title: "Башня",
+  cover: "photos/bashnya/IMG_3814.jpg"
 };
 
 var EXHIBITIONS = [
+  {
+    id: 9,
+    num: "IX",
+    artist: "Данил Андреев",
+    title: "Башня",
+    dates: "18 сентября 2026",
+    cover: "photos/bashnya/poster.png",
+    description: [
+      "18 сентября приглашаем вас в галерею «Мося» на открытие персонального проекта Данила Андреева «Башня».",
+      "Опираясь на герметическую символику и уставы странствующих мастеров, художник выстраивает «архитектуру падения», с помощью эфемерных связей между тем, что отброшено и бесполезно."
+    ],
+    credits: {
+      photo: "Михаил Григорьев"
+    },
+    photos: [
+      "photos/bashnya/IMG_3814.jpg",
+      "photos/bashnya/IMG_3796.jpg",
+      "photos/bashnya/IMG_3820.jpg",
+      "photos/bashnya/IMG_3805.jpg",
+      "photos/bashnya/IMG_3838.jpg",
+      "photos/bashnya/IMG_3844.jpg",
+      "photos/bashnya/IMG_3853.jpg",
+      "photos/bashnya/IMG_3868.jpg",
+      "photos/bashnya/IMG_3873.jpg",
+      "photos/bashnya/IMG_3875.jpg",
+      "photos/bashnya/IMG_3878.jpg",
+      "photos/bashnya/IMG_3879.jpg",
+      "photos/bashnya/IMG_3881.jpg",
+      "photos/bashnya/IMG_3884.jpg",
+      "photos/bashnya/IMG_3886.jpg",
+      "photos/bashnya/IMG_3889.jpg",
+      "photos/bashnya/IMG_3891.jpg"
+    ]
+  },
   {
     id: 8,
     num: "VIII",
