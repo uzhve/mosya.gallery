@@ -17,7 +17,7 @@ var EXHIBITIONS = [
     description: [
       "Выставка Ивана Чемякина и Глеба Ершова, приуроченная к первому году галереи «Мося»."
     ],
-    credits: {},
+    credits: { photo: "Константин Ужве" },
     photos: [
       "photos/mosya-vs-mosya/IMG_6431.jpg",
       "photos/mosya-vs-mosya/IMG_6432.jpg",
