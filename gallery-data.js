@@ -1,12 +1,43 @@
 /* ── Галерея Мося — Exhibition Data ────────────────── */
 
 var UPCOMING = {
-  artist: "Данил Андреев",
-  title: "Башня",
-  cover: "photos/bashnya/IMG_3814.jpg"
+  artist: "Иван Чемякин × Глеб Ершов",
+  title: "МОСЯ vs МОСЯ",
+  cover: "photos/mosya-vs-mosya/hero.jpg"
 };
 
 var EXHIBITIONS = [
+  {
+    id: 10,
+    num: "X",
+    artist: "Иван Чемякин × Глеб Ершов",
+    title: "МОСЯ vs МОСЯ",
+    dates: "22 октября 2026",
+    cover: "photos/mosya-vs-mosya/poster.png",
+    description: [
+      "Выставка Ивана Чемякина и Глеба Ершова, приуроченная к первому году галереи «Мося»."
+    ],
+    credits: {},
+    photos: [
+      "photos/mosya-vs-mosya/IMG_6431.jpg",
+      "photos/mosya-vs-mosya/IMG_6432.jpg",
+      "photos/mosya-vs-mosya/IMG_6434.jpg",
+      "photos/mosya-vs-mosya/IMG_6439.jpg",
+      "photos/mosya-vs-mosya/IMG_6446.jpg",
+      "photos/mosya-vs-mosya/IMG_6448.jpg",
+      "photos/mosya-vs-mosya/IMG_6449.jpg",
+      "photos/mosya-vs-mosya/IMG_6455.jpg",
+      "photos/mosya-vs-mosya/IMG_6459.jpg",
+      "photos/mosya-vs-mosya/IMG_6462.jpg",
+      "photos/mosya-vs-mosya/IMG_6464.jpg",
+      "photos/mosya-vs-mosya/IMG_6584.jpg",
+      "photos/mosya-vs-mosya/IMG_6591.jpg",
+      "photos/mosya-vs-mosya/IMG_6594.jpg",
+      "photos/mosya-vs-mosya/IMG_6595.jpg",
+      "photos/mosya-vs-mosya/IMG_6598.jpg",
+      "photos/mosya-vs-mosya/IMG_6602.jpg"
+    ]
+  },
   {
     id: 9,
     num: "IX",
