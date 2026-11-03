@@ -101,6 +101,39 @@
       .gallery-thumb { flex: 0 0 calc(100% / 5); }
     }
 
+    .ex-videos {
+      padding: 36px var(--pad) 0;
+      border-top: 1px solid var(--line);
+    }
+    .ex-videos-label {
+      font-size: 9px;
+      letter-spacing: .2em;
+      text-transform: uppercase;
+      color: var(--mid);
+      margin-bottom: 18px;
+    }
+    .ex-videos-grid {
+      display: grid;
+      grid-template-columns: repeat(4, minmax(0, 1fr));
+      gap: 2px;
+      background: var(--line);
+    }
+    .ex-videos video {
+      width: 100%;
+      height: min(66vh, 720px);
+      object-fit: cover;
+      display: block;
+      background: #111;
+    }
+    @media (max-width: 900px) {
+      .ex-videos-grid { grid-template-columns: repeat(2, minmax(0, 1fr)); }
+      .ex-videos video { height: min(70vh, 640px); }
+    }
+    @media (max-width: 520px) {
+      .ex-videos-grid { grid-template-columns: 1fr; }
+      .ex-videos video { height: auto; max-height: 78vh; object-fit: contain; }
+    }
+
     /* ── Content section ─────────────────── */
     .ex-content {
       padding: 52px var(--pad) 0;
@@ -212,6 +245,11 @@
     <div class="gallery-thumbs" id="gallery-thumbs"></div>
   </div>
 
+  <section class="ex-videos" id="ex-videos" style="display:none;">
+    <p class="ex-videos-label">Видео</p>
+    <div class="ex-videos-grid" id="ex-videos-grid"></div>
+  </section>
+
   <!-- Content -->
   <div class="ex-content">
     <div class="ex-description" id="ex-description"></div>
@@ -299,6 +337,22 @@
       thumbsEl.appendChild(btn);
     });
 
+    /* Videos */
+    if (ex.videos && ex.videos.length) {
+      var videosEl = document.getElementById('ex-videos');
+      var videosGrid = document.getElementById('ex-videos-grid');
+      videosEl.style.display = '';
+      ex.videos.forEach(function(src, i) {
+        var video = document.createElement('video');
+        video.src = src;
+        video.controls = true;
+        video.playsInline = true;
+        video.preload = 'metadata';
+        video.setAttribute('aria-label', ex.artist + ' — видео ' + (i + 1));
+        videosGrid.appendChild(video);
+      });
+    }
+
     /* Description */
     var desc = document.getElementById('ex-description');
     ex.description.forEach(function(para) {
@@ -312,7 +366,7 @@
       var credEl = document.getElementById('ex-credits');
       var credBody = document.getElementById('ex-credits-body');
       credEl.style.display = '';
-      var labels = { curator: 'Куратор', curators: 'Кураторы', text: 'Текст', photo: 'Фото' };
+      var labels = { curator: 'Куратор', curators: 'Кураторы', text: 'Текст', photo: 'Фото', thanks: 'Спасибо' };
       Object.keys(ex.credits).forEach(function(k) {
         var p = document.createElement('p');
         p.textContent = (labels[k] || k) + ': ' + ex.credits[k];

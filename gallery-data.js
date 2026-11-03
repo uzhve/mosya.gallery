@@ -17,25 +17,24 @@ var EXHIBITIONS = [
     description: [
       "Выставка Ивана Чемякина и Глеба Ершова, приуроченная к первому году галереи «Мося»."
     ],
-    credits: { photo: "Константин Ужве" },
+    credits: {
+      photo: "Константин Ужве",
+      thanks: "Глебу Ершову, Ивану Чемякину и всем гостям галереи"
+    },
     photos: [
-      "photos/mosya-vs-mosya/IMG_6431.jpg",
-      "photos/mosya-vs-mosya/IMG_6432.jpg",
       "photos/mosya-vs-mosya/IMG_6434.jpg",
       "photos/mosya-vs-mosya/IMG_6439.jpg",
       "photos/mosya-vs-mosya/IMG_6446.jpg",
       "photos/mosya-vs-mosya/IMG_6448.jpg",
       "photos/mosya-vs-mosya/IMG_6449.jpg",
       "photos/mosya-vs-mosya/IMG_6455.jpg",
-      "photos/mosya-vs-mosya/IMG_6459.jpg",
-      "photos/mosya-vs-mosya/IMG_6462.jpg",
-      "photos/mosya-vs-mosya/IMG_6464.jpg",
-      "photos/mosya-vs-mosya/IMG_6584.jpg",
-      "photos/mosya-vs-mosya/IMG_6591.jpg",
-      "photos/mosya-vs-mosya/IMG_6594.jpg",
-      "photos/mosya-vs-mosya/IMG_6595.jpg",
-      "photos/mosya-vs-mosya/IMG_6598.jpg",
-      "photos/mosya-vs-mosya/IMG_6602.jpg"
+      "photos/mosya-vs-mosya/IMG_6459.jpg"
+    ],
+    videos: [
+      "photos/mosya-vs-mosya/IMG_6451.mp4",
+      "photos/mosya-vs-mosya/IMG_6452.mp4",
+      "photos/mosya-vs-mosya/IMG_6453.mp4",
+      "photos/mosya-vs-mosya/IMG_6458.mp4"
     ]
   },
   {
